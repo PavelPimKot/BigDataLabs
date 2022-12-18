@@ -14,3 +14,23 @@
 Для вывода списка дочерних узлов - ls /zookeeper:
 
 ![](images/zookeeper_ls_command.png)
+
+Создадим в корне узел /mynode с данными "first_version" и проверим, что в корне появился новый узел.
+
+![](images/mynode.png)
+
+Изменим данные узла на "second_version":
+
+![](images/mynode_start.png)
+
+Создадим два нумерованных узла в качестве дочерних mynode:
+
+![](images/children_mynode.png)
+
+Пример. Принадлежность клиентов к группе
+Внутри CLI сессии, создадим узел mygroup. Откроем две новых CLI консоли и в каждой создайте по дочернему узлу в mygroup и проверим, что grue и bleen являются членами группы mygroup:
+
+![](images/create_mygroup.png)
+![](images/bleen.png)
+![](images/grue.png)
+![](images/grue_bleen.png)
