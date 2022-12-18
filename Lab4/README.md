@@ -48,3 +48,7 @@
 В заключении удалим узел /mygroup.
 
 ![](images/delete_my_group.png)
+
+### Animal task
+![](images/monkey_run.png)
+![](images/tiger_running.png)
